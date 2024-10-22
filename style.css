@@ -1,0 +1,721 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    align-content:center;
+
+    
+  
+    .logo {
+        text-align:left; 
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    .remodel-text {
+        font-family: 'Lora', serif;
+        font-style: italic;
+        font-size: 24px;
+        margin-top: 10px; 
+    }
+    
+    .Frame44 {
+        width: 100%; 
+        height: 123px; 
+        padding: 26px 5%; 
+        background: #767C69; 
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+        box-sizing: border-box; 
+        box-shadow: 5px 5px 15px #767C69;
+    }
+    
+    .Frame47 {
+        flex: 1; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+    }
+    
+    .Frame45,
+    .Frame46 {
+        padding: 10px; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        gap: 10px; 
+    }
+    
+    .Only7995,
+.NoHiddenCosts,
+.NoPressure,
+.NoCompromise {
+    color: black; 
+    font-size: 24px; 
+    font-family: "Lora", serif;
+    font-weight: 400; 
+    padding-inline-end: 20px; 
+    word-wrap: break-word;
+}
+
+    
+    
+
+
+@media (max-width: 1024px) {
+    .Frame44 {
+        padding: 10px 5%; 
+        height: auto;
+    }
+    .Only7995
+    .NoHiddenCosts,
+    .NoPressure,
+    .NoCompromise {
+        font-size: 16px; 
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .Frame44 {
+        padding: 2px 3%; 
+        height: auto; 
+    }
+    .Only7995,
+    .NoHiddenCosts,
+    .NoPressure,
+    .NoCompromise {
+        font-size: 10px; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .Frame44 {
+        padding: 1px 1%; 
+        height: auto; 
+    }
+    .Only7995,
+    .NoHiddenCosts,
+    .NoPressure,
+    .NoCompromise {
+        font-size: 6px;
+    }
+}
+
+    }
+    
+
+@media print {
+    .Frame44 {
+        background: rgba(30, 30, 30, 0.98); 
+        box-shadow: none; 
+        accent-color: exact; 
+        color-scheme: exact; 
+        page-break-inside: avoid;
+    }
+    
+    .Only7995,
+    .NoHiddenCosts,
+    .NoPressure,
+    .NoCompromise {
+        color: black;
+    }
+}
+ 
+  
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.large-image {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 45%;                
+    left: 40%;               
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    font-family: "Lora", serif;
+    font-size: 50px;         
+    color: black;  
+    font-weight: 500;
+    width: 20vw;            
+    max-width: 20vw;
+    padding: 0;
+    word-wrap: break-word;
+    line-height: 1.2;       
+    height: auto;            
+    white-space: nowrap;    
+
+   
+    -webkit-print-color-adjust: exact; 
+    print-color-adjust: exact;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .overlay-text {
+        font-size: 2.5vw;      
+        width: 35vw;             
+        max-width: 35vw;        
+        line-height: 1.4;        
+        top: 48%;              
+        left: 48%;              
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .overlay-text {
+        font-size: 2.5vw;       
+        width: 50vw;           
+        max-width: 60vw;        
+        line-height: 1.4;      
+        top: 43%;               
+        left: 35%;             
+        transform: translate(-50%, -50%);
+        white-space: nowrap;   
+    }
+}
+
+
+
+
+@media print {
+    .overlay-text {
+        position: absolute;       
+        font-size: 20px;          /* Print-friendly font size */
+        top: 45%;                 /* Maintain a fixed vertical position */
+        left: 35%;                /* Adjust to align text in print */
+        transform: none;          /* Remove transform for print */
+        text-align: left;         /* Align text to the left for print */
+        line-height: 1.4;         /* Maintain line height for readability */
+        width: 80%;               /* Ensure proper width for print */
+        max-width: 100%;          /* Let text take full width on print */
+        height: auto;             /* Automatic height for dynamic content */
+        color: black;             
+        page-break-inside: avoid; 
+    }
+}
+
+
+    .Benefits {
+        width: 100%; /* Change width to 100% for responsiveness */
+        max-width: 600px; /* Set a maximum width */
+        color: black;
+        font-size: 50px; /* Base font size */
+        font-family: 'Lora', serif; /* Keep original font */
+        font-style: italic;
+        font-weight: 600;
+        text-align: left;
+        padding: 10px;
+        margin: 10px;
+        word-wrap: break-word; /* Allow word wrapping */
+        box-sizing: border-box; /* Include padding and margin in width */
+    }
+    
+    /* Responsive font size for smaller screens */
+    @media (max-width: 768px) {
+        .Benefits {
+            font-size: 36px; /* Adjust font size for smaller screens */
+        }
+    }
+    
+    .ul {
+        width: 100%; /* Fill the full width */
+        color: black;
+        font-size: 32px; /* Base font size */
+        font-family: "Poppins", sans-serif; /* Keep original font */
+        font-weight: 400; 
+        padding: 10px;
+        box-sizing: border-box; /* Include padding in width */
+    }
+    
+    /* Responsive font size for smaller screens */
+    @media (max-width: 768px) {
+        .ul {
+            font-size: 24px; /* Adjust font size for smaller screens */
+        }
+    }
+    
+    /* Print Styles */
+    @media print {
+        .Benefits, .ul {
+            color: white; /* Ensure text color for print */
+            font-size: inherit; /* Use inherited font size for print */
+            line-break: avoid;
+            
+        }
+    }
+    
+  
+  
+    .AboutShowers {
+        width: 100%; /* Full width */
+        height:200px; /* Allow height to adjust based on content */
+        padding: 10px; /* Padding around the container */
+        background: #1E1E1E; /* Background color */
+        display: flex; /* Flexbox layout */
+        justify-content: center; /* Center items horizontally */
+        align-items: center; /* Center items vertically */
+        gap: 10px; /* Space between elements */
+        box-sizing: border-box; /* Include padding in width calculations */
+    }
+    
+    /* Responsive text-box */
+    .text-box {
+        width: 100%; /* Full width */
+        height: auto; /* Allow height to adjust based on content */
+        text-align: center; /* Center text */
+        color: white; /* Text color */
+        font-family: Lora; /* Font family */
+        word-wrap: break-word; /* Allow word wrapping */
+        box-sizing: border-box; /* Include padding in width calculations */
+    }
+    
+    /* Font styles for spans */
+    .text-box span:first-child {
+        font-size: 32px; /* Font size for first span */
+        font-weight: 600; /* Font weight */
+    }
+    
+    .text-box span:last-child {
+        font-size: 28px; /* Font size for last span */
+        font-weight: 400; /* Font weight */
+    }
+    
+    /* Full image class */
+    .full-image {
+        width: 100%; /* Full width */
+        height: auto; /* Maintain aspect ratio */
+        background-size: cover; /* Cover background */
+        background-position: center; /* Center background image */
+    }
+    
+   /* Responsive Styles */
+@media (max-width: 768px) {
+    .text-box span:first-child {
+        font-size: 28px; /* Adjust font size for smaller screens */
+    }
+
+    .text-box span:last-child {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .AboutShowers {
+        padding: 5px; /* Reduce padding on smaller screens */
+    }
+}
+
+@media print {
+    .AboutShowers {
+        background: #1E1E1E; /* Keep the original background color for print */
+        page-break-inside: avoid; /* Prevent page breaks inside this element */
+    }
+
+    .text-box {
+        color: white; /* Keep the original text color for print */
+    }
+
+    .text-box span:first-child,
+    .text-box span:last-child {
+        font-size: inherit; /* Keep font size as it is */
+    }
+}
+
+    
+  
+  
+  
+    .Compare {
+        width: 600px; /* Original width */
+        color: black; /* Text color */
+        font-size: 50px; /* Font size */
+        font-family: Lora; /* Font family */
+        font-style: italic; /* Italic style */
+        font-weight: 600; /* Font weight */
+        word-wrap: break-word; /* Word wrapping */
+        padding: 10px; /* Padding */
+        margin: 10px; /* Margin */
+    }
+    
+    .container1 {
+        width: 100%; /* Full width */
+        display: flex; /* Flex display */
+        justify-content: space-between; /* Space between items */
+        align-items: baseline; /* Align baseline */
+        margin-left: 0; /* No left margin */
+        border: #1E1E1E; /* Border */
+        border-radius: 10px; /* Rounded corners */
+        flex: 4; /* Flex growth */
+    }
+    
+    .ul2 {
+        flex: 0 0 60%; /* Take up at least 60% of the container */
+        max-width: 60%; /* Maximum width */
+        height: 600px; /* Fixed height */
+        color: white; /* Text color */
+        font-size: 34px; /* Font size */
+        font-family: "Poppins", sans-serif; /* Font family */
+        font-weight: 400; /* Font weight */
+        margin-right: 10px; /* Right margin */
+        padding: 10px; /* Padding */
+        border: 2px solid #1E1E1E; /* Border */
+        border-radius: 10px; /* Rounded corners */
+        background-color: #1E1E1E; /* Background color */
+        align-content: center; /* Center content */
+    }
+    
+    .float-image {
+        flex: 0 0 38%; /* Take up at least 40% of the container */
+        max-width: 40%; /* Maximum width */
+        border: 1px solid white; /* Border */
+        border-radius: 10px; /* Rounded corners */
+        margin-left: 0; /* No left margin */
+        margin-right: 0; /* No right margin */
+        padding-bottom: 20px; /* Bottom padding */
+        align-self: center; /* Center alignment */
+        height: auto; /* Auto height for responsiveness */
+    }
+    
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+        .container1 {
+            flex-direction: column; /* Stack items vertically for mobile */
+        }
+    
+        .ul2 {
+            flex: 1 1 100%; /* Full width on mobile */
+            max-width: 100%; /* Full width */
+        }
+    
+        .float-image {
+            flex: 1 1 100%; /* Full width on mobile */
+            max-width: 100%; /* Full width */
+            margin-top: 20px; /* Space above the image */
+        }
+    }
+    
+    /* Print Styles */
+    @media print {
+        .container1 {
+            flex-direction: column; /* Stack items vertically for print */
+            line-break:avoid;
+        
+        }
+    
+        .ul2,
+        .float-image {
+            flex: 1 1 100%; /* Full width for print */
+            max-width: 100%; /* Full width */
+            height: auto; /* Auto height */
+        }
+    }
+    
+    
+
+  
+  body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+
+.social-proof {
+    display: flex; /* Maintain flex layout */
+    flex-wrap: wrap; /* Allow wrapping of items */
+    justify-content: space-between; /* Space between items */
+    color: black;
+    padding: 20px;
+    margin-top: 20px;
+    box-sizing: border-box; /* Include padding in width calculations */
+}
+
+.customer {
+    background-color: #aaa; /* Background color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    flex: 1; /* Flex-grow */
+    margin: 10px; /* Margin around each customer card */
+    text-align: center; /* Center text */
+    min-width: 250px; /* Minimum width to ensure cards don’t get too small */
+    box-sizing: border-box; /* Include padding in width calculations */
+}
+
+/* Profile Picture Styles */
+.profile-pic {
+    width: 100px; /* Fixed width */
+    height: 100px; /* Fixed height */
+    border-radius: 50%; /* Circular profile picture */
+    margin-bottom: 15px; /* Space below picture */
+}
+
+/* Name Styles */
+.name {
+    font-family: "Lora", serif; /* Font for name */
+    font-size: 1.5em; /* Font size */
+    margin: 0; /* Remove margin */
+}
+
+/* Profession Styles */
+.profession {
+    font-family: 'Poppins', sans-serif; /* Font for profession */
+    font-size: 1em; /* Font size */
+    margin: 5px 0; /* Margin above and below */
+}
+
+/* Rating Styles */
+.rating {
+    font-size: 1.2em; /* Font size */
+    color: black; /* Text color */
+    margin: 10px 0; /* Margin above and below */
+}
+
+/* Comment Styles */
+.comment {
+    font-family: "Poppins", sans-serif; /* Font for comments */
+    font-size: 1em; /* Font size */
+    margin: 10px 0; /* Margin above and below */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .social-proof {
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: center; /* Center items */
+    }
+
+    .customer {
+        margin: 10px 0; /* Adjust margin for stacked layout */
+        width: 90%; /* Full width on smaller screens */
+    }
+}
+
+/* Print Styles */
+@media print {
+    .social-proof {
+        flex-direction: column; /* Stack items vertically for print */
+        align-items: center;    /* Center items horizontally */
+        padding-bottom: 10px;
+        line-break: avoid;
+        gap: 20px;              /* Add space between items */
+    }
+
+    .customer {
+        margin: 0;              /* Remove default margins */
+        margin-bottom: 20px;     /* Add space between customer blocks */
+        width: 100%;            /* Full width for print */
+    }
+
+    .profile-pic {
+        width: 80px;            /* Adjust profile pic size for print */
+        height: 80px;           /* Ensure profile pics are uniform */
+    }
+
+    .name,
+    .profession,
+    .rating,
+    .comment {
+        color: black;           /* Ensure text is black for print */
+    }
+
+    .name {
+        margin-bottom: 5px;     /* Add space between name and profession */
+    }
+
+    .profession {
+        margin-bottom: 5px;     /* Add space between profession and rating */
+    }
+
+    .rating {
+        margin-bottom: 5px;     /* Add space between rating and comment */
+    }
+
+    .comment {
+        margin-bottom: 10px;    /* Add space between comment and next item */
+    }
+}
+
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+  }
+  
+  .frame {
+    width: 100%; /* Full width */
+    height: auto; /* Adjust height based on content */
+    min-height: 450px; /* Maintain minimum height */
+    background: #1E1E1E; /* Background color */
+    display: flex; /* Flex display */
+    flex-direction: column; /* Column layout */
+    justify-content: center; /* Center content */
+    align-items: flex-start; /* Align items to start */
+    gap: 50px; /* Gap between items */
+    margin-top: 30px; /* Top margin */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    padding: 20px; /* Add padding for better spacing */
+    box-sizing: border-box; /* Include padding in width calculations */
+}
+
+.contact-number {
+    width: 100%; /* Full width */
+    height: auto; /* Adjust height based on content */
+    display: flex; /* Flex display */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items */
+    padding: 0 20px; /* Padding */
+}
+
+.cta-contact {
+    display: flex; /* Flex display */
+    width: 100%; /* Full width */
+}
+
+.call-or-text-now {
+    color: white; /* Text color */
+    font-size: 40px; /* Font size */
+    font-style: italic; /* Italic style */
+    font-weight: 400; /* Font weight */
+    margin-right: 20px; /* Right margin */
+    margin-top: 10px;
+    align-self: center; /* Center alignment */
+    padding-inline: 10px; /* Horizontal padding */
+}
+
+.number {
+    color: white; /* Text color */
+    font-size: 60px; /* Font size */
+    font-style: italic; /* Italic style */
+    font-weight: 400; /* Font weight */
+    margin-right: 20px; /* Right margin */
+    align-self: center; /* Center alignment */
+    padding-inline: 10px; /* Horizontal padding */
+}
+
+.we-make-it-easy {
+    color: white; /* Text color */
+    font-size: 40px; /* Font size */
+    font-weight: 700; /* Font weight */
+    align-self: center; /* Center alignment */
+}
+
+.logo-and-slogan {
+    display: flex; /* Flex display */
+    flex-direction: row; /* Row layout for desktop */
+    align-items: center; /* Center items vertically */
+    width: 100%; /* Full width */
+    margin-top: auto; /* Push to the bottom */
+    justify-content: flex-start; /* Align to the left */
+}
+
+.logo-frame {
+    width: auto; /* Allow auto width for responsiveness */
+    max-width: 333px; /* Maximum width */
+    height: auto; /* Adjust height based on content */
+    padding: 10px; /* Padding */
+    display: flex; /* Flex display */
+    justify-content: flex-start; /* Align items to the start */
+    align-items: center; /* Center items */
+}
+
+.logo-image {
+    height: auto; /* Fixed height */
+    width: auto;
+    margin: 10px; /* Margin */
+    padding: 10px; /* Padding */
+    justify-self: auto;
+}
+
+.slogan {
+    color: white; /* Text color */
+    font-size: 28px; /* Font size */
+    font-style: italic; /* Italic style */
+    font-family: "Lora", serif; /* Font family */
+    font-weight: 400; /* Font weight */
+    padding-inline: 10px; /* Horizontal padding */
+    margin-left: 10px; /* Space between slogan and logo */
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .logo-and-slogan {
+        flex-direction: column; /* Stack items vertically for mobile */
+        align-items: flex-start; /* Align items to the start */
+        width: 100%; /* Ensure full width */
+    }
+
+    .slogan {
+        margin-left: 0; /* Remove left margin for mobile */
+        margin-top: 10px; /* Space above slogan */
+        white-space: normal; /* Allow wrapping */
+        font-size: 16px; /* Adjust slogan font size */
+        text-align: center; /* Center text for mobile */
+    }
+
+    .contact-number {
+        flex-direction: column; /* Stack items vertically for mobile */
+        align-items: flex-start; /* Align items to start */
+    }
+
+    .call-or-text-now,
+    .number,
+    .we-make-it-easy {
+        font-size: 30px; /* Adjust font size for smaller screens */
+    }
+
+    .logo-frame {
+        max-width: 95px; /* Reduce logo frame width */
+    }
+}
+
+/* Tablet and Desktop Styles */
+@media (min-width: 769px) {
+    .slogan {
+        margin-left: 10px; /* Space between logo and slogan */
+    }
+}
+
+/* Print Styles */
+@media print {
+    .frame {
+        box-shadow: none; /* Remove shadow for print */
+        padding: 0; /* Remove padding for print */
+        page-break-inside: avoid;
+    }
+
+    .contact-number,
+    .cta-contact,
+    .logo-and-slogan {
+        flex-direction: column; /* Stack items vertically for print */
+        align-items: flex-start; /* Align items to start */
+        justify-content: left;
+    }
+
+    .call-or-text-now,
+    .number,
+    .we-make-it-easy {
+        font-size: 20px; /* Adjust font size for print */
+        text-align: left;
+    }
+
+    .slogan {
+        font-size: 16px; /* Adjust slogan font size for print */
+    }
+
+    .logo-frame {
+        max-width: 100%; /* Full width for logo frame in print */
+    }
+}
